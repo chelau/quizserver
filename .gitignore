@@ -1,5 +1,5 @@
 /db
 /vendor
 /quiz-server/uploads
-/quiz-server/debug.log
+/quiz-server/wp-content/debug.log
 /quiz-server/wp-config.php
