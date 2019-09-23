@@ -1,0 +1,37 @@
+[18-Sep-2019 23:06:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /var/www/html/wp-content/plugins/advanced-custom-fields/pro/fields/class-acf-field-clone.php on line 130
+[20-Sep-2019 21:05:01 UTC] 
+[20-Sep-2019 21:08:37 UTC] 
+[20-Sep-2019 21:09:07 UTC] 
+[20-Sep-2019 21:09:10 UTC] 
+[20-Sep-2019 21:12:16 UTC] null
+[20-Sep-2019 21:24:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Webface_Qm_Public' does not have a method 'intercept_result' in /var/www/html/wp-includes/class-wp-hook.php on line 288
+[20-Sep-2019 21:24:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-includes/class-wp-hook.php:288) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[20-Sep-2019 22:19:21 UTC] 
+[20-Sep-2019 22:19:39 UTC] 
+[20-Sep-2019 22:21:54 UTC] 
+[20-Sep-2019 22:22:29 UTC] 
+[21-Sep-2019 12:17:27 UTC] PHP Notice:  Undefined variable: variable in /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php on line 115
+[21-Sep-2019 12:17:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php:105) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[21-Sep-2019 12:20:05 UTC] PHP Notice:  Undefined variable: variable in /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php on line 115
+[21-Sep-2019 12:20:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php:105) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[21-Sep-2019 12:34:01 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php on line 116
+[21-Sep-2019 12:49:07 UTC] PHP Notice:  Undefined index: question in /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php on line 116
+[21-Sep-2019 12:49:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php:116) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[21-Sep-2019 13:35:49 UTC] PHP Parse error:  syntax error, unexpected '=' in /var/www/html/wp-content/plugins/webface-qm/public/class-webface-qm-public.php on line 155
+[21-Sep-2019 14:00:34 UTC] PHP Notice:  Undefined index: acf in /var/www/html/wp-content/plugins/acf-to-rest-api/v3/lib/endpoints/class-acf-to-rest-api-controller.php on line 63
+[21-Sep-2019 14:00:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/acf-to-rest-api/v3/lib/endpoints/class-acf-to-rest-api-controller.php:63) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[21-Sep-2019 14:01:07 UTC] PHP Notice:  Undefined index: acf in /var/www/html/wp-content/plugins/acf-to-rest-api/v3/lib/endpoints/class-acf-to-rest-api-controller.php on line 63
+[21-Sep-2019 14:01:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/acf-to-rest-api/v3/lib/endpoints/class-acf-to-rest-api-controller.php:63) in /var/www/html/wp-includes/rest-api/class-wp-rest-server.php on line 1258
+[22-Sep-2019 12:16:13 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:16:13 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:16:14 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:16:14 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:16:15 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:17:15 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:17:15 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:18:15 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:19:15 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:21:16 UTC] /var/www/html/wp-content/plugins/webface-qm/
+[22-Sep-2019 12:21:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /var/www/html/wp-content/plugins/webface-qm/includes/class-webface-qm.php on line 165
+[23-Sep-2019 15:38:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/cron.php on line 689
+[23-Sep-2019 17:11:54 UTC] PHP Notice:  Undefined index: placeholder in /var/www/html/wp-content/plugins/exit-notifier/includes/lib/class-exit-notifier-admin-api.php on line 98

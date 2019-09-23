@@ -1,0 +1,38 @@
+{
+	"name": "webface/wordpress-rest-dev",
+	"description": "Lets do this",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        },
+        {
+            "type":"vcs",
+            "url":"https://github.com/timber/starter-theme.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:/webface/advanced-custom-fields-pro.git"
+		  }
+    ],
+    "extra": {
+        "installer-paths": {
+            "quiz-server/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "quiz-server/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "quiz-server/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "require": {
+        "wpackagist-plugin/timber-library":"dev-trunk",
+        "wpackagist-theme/timber-lite":"1.0.4",
+		"wpackagist-plugin/acf-timber-integration":"1.3.0",
+		"webface/advanced-custom-fields-pro":"dev-master",
+        "wpackagist-plugin/acf-to-rest-api":"3.1.0",
+		"wpackagist-plugin/wp-rest-user":"dev-trunk",
+		"wpackagist-plugin/stionic-users":"dev-trunk",
+		"wpackagist-plugin/nextend-facebook-connect":"dev-trunk",
+		"wpackagist-plugin/jwt-authentication-for-wp-rest-api":"1.2.6",
+		"wpackagist-plugin/disable-rest-api-and-require-jwt-oauth-authentication":"1.0",
+		"wpackagist-plugin/better-rest-api-featured-images":"1.2.1"
+    }
+}

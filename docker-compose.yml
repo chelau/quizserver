@@ -1,0 +1,36 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+       - ./db:/var/lib/mysql
+    # ports:
+    #   - "3308:3308"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: db_name
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: db_name
+      WORDPRESS_DB_PASSWORD: root_password
+    ports:
+      - "1038:80"
+    volumes:
+      - ./quiz-server:/var/www/html 
+    restart: always
+
+  phpmyadmin:
+   image: phpmyadmin/phpmyadmin
+   environment:
+     MYSQL_ROOT_PASSWORD: root_password
+   restart: always
+   ports:
+    - "1039:80"

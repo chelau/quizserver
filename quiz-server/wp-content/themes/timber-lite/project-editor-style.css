@@ -1,0 +1,22 @@
+.wpview-error {
+  padding: 60px; }
+  .wpview-error .dashicons {
+    width: 70px;
+    height: auto; }
+  .wpview-error .dashicons-format-gallery {
+    font-size: 70px; }
+  .wpview-error .dashicons-format-gallery:before {
+    content: "\f233"; }
+  .wpview-error .dashicons.dashicons-format-gallery:after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333; }
+  .wpview-error p {
+    display: none; }
+
+/*# sourceMappingURL=project-editor-style.css.map */
