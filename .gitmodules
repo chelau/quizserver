@@ -1,6 +1,6 @@
 [submodule "quiz-server/wp-content/plugins/advanced-custom-fields-pro"]
 	path = quiz-server/wp-content/plugins/advanced-custom-fields-pro
 	url = git@github.com:webface/advanced-custom-fields-pro.git
-[submodule "quiz-server/wp-content/uploads/quiz-server/wp-content/plugins/digital-ocean-spaces-wp"]
-	path = quiz-server/wp-content/uploads/quiz-server/wp-content/plugins/digital-ocean-spaces-wp
+[submodule "quiz-server/wp-content/plugins/digital-ocean-spaces-wp"]
+	path = quiz-server/wp-content/plugins/digital-ocean-spaces-wp
 	url = git@github.com:webface/digital-ocean-spaces-wp.git
