@@ -12,7 +12,12 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:/webface/advanced-custom-fields-pro.git"
+			"url": "https://github.com/webface/advanced-custom-fields-pro.git"
+		  }
+		  ,
+		{
+			"type": "vcs",
+			"url": "https://github.com/webface/digital-ocean-spaces-wp.git"
 		  }
     ],
     "extra": {
@@ -27,6 +32,7 @@
         "wpackagist-theme/timber-lite":"1.0.4",
 		"wpackagist-plugin/acf-timber-integration":"1.3.0",
 		"webface/advanced-custom-fields-pro":"dev-master",
+		"webface/digital-ocean-spaces-wp":"dev-master",
         "wpackagist-plugin/acf-to-rest-api":"3.1.0",
 		"wpackagist-plugin/wp-rest-user":"dev-trunk",
 		"wpackagist-plugin/stionic-users":"dev-trunk",
