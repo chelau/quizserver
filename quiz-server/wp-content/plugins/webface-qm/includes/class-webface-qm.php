@@ -181,7 +181,7 @@ class Webface_Qm {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 		$this->loader->add_filter( 'acf/rest_api/quiz/get_fields', $plugin_public, 'quiz_json_output' );
-
+		$this->loader->add_filter( 'rest_prepare_user', $plugin_public, 'quiz_prepare_user', 10, 3 );
 	}
 
 	/**

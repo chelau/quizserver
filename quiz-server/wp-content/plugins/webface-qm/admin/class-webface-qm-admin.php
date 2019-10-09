@@ -135,7 +135,44 @@ class Webface_Qm_Admin {
 			'query_var' => true,
 			'can_export' => true
 		);
+		$labels2 = array(
+			'name' => __('Courses','webface-qm'),
+			'singular_name' => __('Course','webface-qm'),
+			'add_new' => __('Add New','webface-qm'),
+			'all_items' => __('All Courses','webface-qm'),
+			'add_new_item' => __('Add New Course','webface-qm'),
+			'edit_item' => __('Edit Course','webface-qm'),
+			'new_item' => __('New Course','webface-qm'),
+			'view_item' => __('View Course','webface-qm'),
+			'search_items' => __('Search Courses','webface-qm'),
+			'not_found' =>  __('No Courses found','webface-qm'),
+			'not_found_in_trash' => __('No Courses found in trash','webface-qm'),
+			'parent_item_colon' => __('Parent Course:','webface-qm'),
+			'menu_name' => __('Courses','webface-qm')
+		);
+		$args2 = array(
+			'labels' => $labels2,
+			'description' => "A course api",
+			'public' => true,
+			'exclude_from_search' => false,
+			'publicly_queryable' => true,
+			'show_ui' => true,
+			'show_in_nav_menus' => true,
+			'show_in_menu' => true,
+			'show_in_admin_bar' => true,
+			'show_in_rest' => true,
+			'menu_position' => 20,
+			'menu_icon' => null,
+			'capability_type' => 'page',
+			'hierarchical' => true,
+			'supports' => array('title','editor','author','thumbnail','excerpt'),
+			'has_archive' => true,
+			'rewrite' => array('slug' => 'course', 'with_front' => 'true'),
+			'query_var' => true,
+			'can_export' => true
+		);
 		register_post_type('quiz',$args);
+		register_post_type('course',$args2);
 	}
 	/**
 	 * Define where the local JSON is saved

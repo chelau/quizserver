@@ -180,4 +180,14 @@ class Webface_Qm_Public {
 		return $t_questions;
 	}
 
+	public function quiz_prepare_user( $response, $user, $request ) {
+
+		$response->data[ 'first_name' ] = get_user_meta( $user->ID, 'first_name', true );
+		$response->data[ 'last_name' ] = get_user_meta( $user->ID, 'last_name', true );
+		$response->data[ 'email' ] = get_userdata( $user->ID )->user_email;
+	
+		return $response;
+	
+	}
+
 }
